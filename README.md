@@ -23,7 +23,8 @@ In Jaccard similarity instead of vectors, we will be using sets. It is used to f
 Jaccard similarity is defined as the intersection of sets divided by their union.
 
 Jaccard similarity between two sets A and B is :
-                      **Jaccard similarity= |A ∩ B| / |A ∪ B|**
+
+**Jaccard similarity= |A ∩ B| / |A ∪ B|**
               
 Imagine we have the set A = {“flower”, “dog”, “cat”, 1, 3} and B = {“flower”, “cat”, “boat”}. 
 Then, A ∩ B = 2 and A ∪ B = 6. As a result, the Jaccard similarity is 2/6 = 3.
