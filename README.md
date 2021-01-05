@@ -9,6 +9,13 @@ If the word exists in the history of the device, it will generalize the word as 
 Here we have used some words to put the functionality in our autocorrect. So we will use the text from a document(book.txt). 
 We have used all the general libraries and a **textdistance** library for comparing distance between two or more sequences.
 
+Following are the libraries used:
+- Pandas
+- Numpy
+- textdistance
+- Counter
+- re(regular expression)
+
 # The largest heading
 
 ###### The smallest heading
