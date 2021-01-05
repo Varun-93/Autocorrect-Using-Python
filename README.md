@@ -16,6 +16,15 @@ Following are the libraries used:
 - Counter
 - re(regular expression)
 
-# The largest heading
+Here we are sorting similar words according to the Jaccard distance.
 
-###### The smallest heading
+## **JACCARD SIMILARITY AND DISTANCE**
+In Jaccard similarity instead of vectors, we will be using sets. It is used to find the similarity between two sets.
+Jaccard similarity is defined as the intersection of sets divided by their union.
+
+Jaccard similarity between two sets A and B is :
+                      **Jaccard similarity= |A ∩ B| / |A ∪ B|**
+              
+Imagine we have the set A = {“flower”, “dog”, “cat”, 1, 3} and B = {“flower”, “cat”, “boat”}. 
+Then, A ∩ B = 2 and A ∪ B = 6. As a result, the Jaccard similarity is 2/6 = 3.
+
